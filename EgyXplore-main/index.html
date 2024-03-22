@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EgyXplore</title>
+    <!--======================= CSS styling file ============================= -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--======================= Icons file ============================= -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--======================= Logo Icon ============================= -->
+    <link rel="shortcut icon" href="imgs/camel.png" />
+    <!--======================= Font Family ============================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--============= Nav ================ -->
+    <header>
+      <div class="navbar">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img src="imgs/EgyXplore.png" alt="Logo" />
+          </a>
+        </div>
+        <ul class="links">
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="contact.html">Contact-Us</a></li>
+          <li><a href="#interests">Interests</a></li>
+        </ul>
+
+        <div class="navBtns">
+          <select name="language" id="language">
+            <option value="eng">EN</option>
+            <option value="ar">AR</option>
+          </select>
+          <a href="signin.html" class="nav-signin">SIGN IN</a>
+          <a href="createnewaccount.html" class="nav-signup">SIGN UP</a>
+        </div>
+
+        <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+      </div>
+
+      <div class="dropdown_menu">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="contact.html">Contact-Us</a></li>
+        <li><a href="#interests">Interests</a></li>
+      </div>
+    </header>
+    <!--============= Banner ================ -->
+    <section class="banner_section" id="banner">
+      <div class="texts">
+        <h4 class="pre-title-banner">Explore</h4>
+        <h3 class="title1-banner">The Culture of</h3>
+        <h1 class="title2-banner">EGYPT</h1>
+        <div class="social-icons">
+          <a href="https://www.facebook.com" target="_blank" class="fb">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank" class="x">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" class="insta">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <br />
+      <div class="slide hi-slide">
+        <div class="hi-prev"></div>
+        <div class="hi-next"></div>
+        <ul>
+          <li>
+            <img src="imgs/img2.png" alt="" />
+          </li>
+          <li>
+            <img src="imgs/img8.png" alt="" />
+          </li>
+          <li>
+            <img src="imgs/camel.png" alt="" />
+          </li>
+          <li>
+            <img src="imgs/img12.png" alt="" />
+          </li>
+          <li>
+            <img src="imgs/sunset.png" alt="" />
+          </li>
+          <li>
+            <img src="imgs/img9.png" alt="" />
+          </li>
+          <li>
+            <img src="imgs/img1.png" alt="" />
+          </li>
+          <li>
+            <img src="imgs/img3.png" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--============= Discover ================ -->
+    <div class="discover-section">
+      <div class="discover-field">
+        <input
+          type="text"
+          class="discover-search"
+          placeholder="What would you like to discover"
+        />
+      </div>
+      <div class="discover-btn">
+        <a href="#inspire" class="inspire-btn">INSPIRE ME</a>
+      </div>
+    </div>
+    <!--======== Destinations ======== -->
+    <section class="destination-section" id="destinations">
+      <h2 class="dest-title tit">Top Destinations</h2>
+      <div class="img-collection">
+        <div class="boxC places">
+          <img src="imgs/cairo.png" alt="" class="cairo" />
+          <h4 class="caption">Cairo</h4>
+        </div>
+        <div class="boxA places">
+          <img src="imgs/alex.png" alt="" class="alex" />
+          <h4 class="caption">Alexandria</h4>
+        </div>
+        <div class="boxS places">
+          <img src="imgs/siwa.png" alt="" class="siwa" />
+          <h4 class="caption">Siwa Oasis</h4>
+        </div>
+        <div class="boxAS places">
+          <img src="imgs/Tour-to-Aswan.png" alt="" class="aswan" />
+          <h4 class="caption">Aswan</h4>
+        </div>
+        <div class="boxSH places">
+          <img src="imgs/sharm.png" alt="" class="sharm" />
+          <h4 class="caption">Sharm El Sheikh</h4>
+        </div>
+        <div class="boxL places">
+          <img src="imgs/temple shadow.png" alt="" class="luxor" />
+          <h4 class="caption">Luxor</h4>
+        </div>
+      </div>
+      <div class="explore-more">
+        <a href="#" class="explore-btn"
+          >Explore More <i id="right" class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+    </section>
+    <!--============= Services ================ -->
+    <section class="services-section">
+      <h2 class="services-title tit">Our Services</h2>
+      <div class="services-boxes">
+        <a class="service" href="plan.html">
+          <div class="service-icon">
+            <img src="imgs/calendar.png" alt="" />
+          </div>
+          <div class="card-txt">
+            <h3>Plan</h3>
+            <h6>
+              Create your ideal Egypt trip with customizable plans tailored to
+              your preferences
+            </h6>
+          </div>
+        </a>
+        <a class="service" href="emergency.html">
+          <div class="service-icon">
+            <img src="imgs/emergency_icon.png" alt="" />
+          </div>
+          <div class="card-txt">
+            <h3>Emergency Services</h3>
+            <h6>
+              Feel secure with our emergency services available to support you
+              during unexpected situations
+            </h6>
+          </div>
+        </a>
+        <a class="service" href="scan.html">
+          <div class="service-icon">
+            <img src="imgs/scan.png" alt="" />
+          </div>
+          <div class="card-txt">
+            <h3>Scan</h3>
+            <h6>
+              Explore more details in your photos by simply uploading them to
+              uncover extra details during your Egypt trip!
+            </h6>
+          </div>
+        </a>
+        <a class="service" href="scams.html">
+          <div class="service-icon">
+            <img src="imgs/scams_icon.png" alt="" />
+          </div>
+          <div class="card-txt">
+            <h3>Avoid Scams</h3>
+            <h6>
+              Stay protected from scam with our enhanced security measures for
+              worry-free travel in Egypt
+            </h6>
+          </div>
+        </a>
+      </div>
+      <div class="ss1">
+        <div class="ss1-left">
+          <img src="imgs/img4.png" alt="" />
+          <img src="imgs/rehla.png" alt="" />
+          <img src="imgs/luxor.png" alt="" />
+          <img src="imgs/image.png" alt="" />
+        </div>
+        <div class="ss1-right">
+          <h4 class="stitle">Explore 100+ Destinations</h4>
+          <p class="desc">
+            Discover the enchantment of Egypt across an array of 100+
+            destinations, each offering a unique blend of culture, history, and
+            natural beauty for an unforgettable exploration.
+          </p>
+          <a href="#ex" class="sbtn">Explore</a>
+        </div>
+      </div>
+
+      <div class="ss2">
+        <div class="ss2-left">
+          <h4 class="stitle">Explore By Specialty Travel Advisors</h4>
+          <p class="desc">
+            Enhance your travel experience with the expertise of our Specialty
+            Travel Advisors, who are committed to crafting unique and
+            unforgettable journeys through Egypt, tailored to your specific
+            interests and preferences.
+          </p>
+          <a href="#ex" class="sbtn">Explore</a>
+        </div>
+
+        <div class="ss2-right">
+          <div class="travel-boxes">
+            <!-- 1111111111111111111111 -->
+            <div class="travel">
+              <img src="imgs/ismailia.png" alt="Ismailia" />
+              <div class="txt-travel">
+                <h3>Ismailia</h3>
+                <p>
+                  a canal-side city in Egypt, charms with its scenic waterfront
+                  along the Suez Canal and a relaxed urban atmosphere.
+                </p>
+                <div class="updates">
+                  <div class="first">
+                    <img src="imgs/calendar_blue.png" alt="" />
+                    <span>1 Day Trip</span>
+                  </div>
+                  <div class="second">
+                    <img src="imgs/favs.png" alt="" />
+                    <span>4.2 stars</span>
+                  </div>
+                  <div class="third">
+                    <img src="imgs/views_icon 2.png" alt="" />
+                    <span>1456</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 22222222222222222-->
+            <div class="travel">
+              <img src="imgs/fayoum oasis.png" alt="Fayoum Waterfalls" />
+              <div class="txt-travel">
+                <h3>Fayoum Oasis</h3>
+                <p>
+                  a canal-side city in Egypt, charms with its scenic waterfront
+                  along the Suez Canal and a relaxed urban atmosphere.
+                </p>
+                <div class="updates">
+                  <div class="first">
+                    <img src="imgs/calendar_blue.png" alt="" />
+                    <span>1 Day Trip</span>
+                  </div>
+                  <div class="second">
+                    <img src="imgs/favs.png" alt="" />
+                    <span>4.2 stars</span>
+                  </div>
+                  <div class="third">
+                    <img src="imgs/views_icon 2.png" alt="" />
+                    <span>1800</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 33333333333333333333 -->
+            <div class="travel">
+              <img src="imgs/dahab.png" alt="Dahab" />
+              <div class="txt-travel">
+                <h3>Dahab</h3>
+                <p>
+                  a canal-side city in Egypt, charms with its scenic waterfront
+                  along the Suez Canal and a relaxed urban atmosphere.
+                </p>
+                <div class="updates">
+                  <div class="first">
+                    <img src="imgs/calendar_blue.png" alt="" />
+                    <span>1 Day Trip</span>
+                  </div>
+                  <div class="second">
+                    <img src="imgs/favs.png" alt="" />
+                    <span>4.2 stars</span>
+                  </div>
+                  <div class="third">
+                    <img src="imgs/views_icon 2.png" alt="" />
+                    <span>1456</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============= Interests Section ================ -->
+    <section class="interests-section">
+      <div class="interest-title">
+        <h3>Select your interest</h3>
+      </div>
+      <div class="mytabs">
+        <!-- -------- DESERT ---------- -->
+        <input type="radio" id="desertTab" name="mytabs" />
+        <label for="desertTab">
+          <div class="option">
+            <img src="imgs/africa_icon.svg" alt="" width="55" />
+            <p class="desert_p">Desert</p>
+          </div>
+        </label>
+
+        <div class="tab">
+          <div class="desert-imgs interests-imgs">
+            <div class="first-img">
+              <img src="imgs/alex_castle.png" alt="Alex Castle" />
+              <h4>Alex Castle</h4>
+              <p>
+                A grand temple complex on the east bank of the Nile in Luxor,
+                known for its ancient architecture andhistorical significance.
+              </p>
+            </div>
+
+            <div class="second-img">
+              <img
+                src="imgs/bibliotheca alex.png"
+                alt="Bibliotheca Alexandria"
+              />
+              <h4>Bibliotheca Alexandria</h4>
+              <p>
+                A modern tribute to the ancient Library of Alexandria, housing a
+                vast collection of books and manuscripts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------- landmarks --------- -->
+        <input type="radio" id="landmarksTab" name="mytabs" checked="checked" />
+        <label for="landmarksTab">
+          <div class="option">
+            <img src="imgs/pyramids_icon.svg" alt="" width="60" />
+            <p>Landmarks</p>
+          </div>
+        </label>
+
+        <div class="tab">
+          <div class="landmarks-imgs interests-imgs">
+            <div class="first-img">
+              <img src="imgs/Luxor-Temple.png" alt="Luxor Temple" />
+              <h4>Luxor Temple</h4>
+              <p>
+                A grand temple complex on the east bank of the Nile in Luxor,
+                known for its ancient architecture andhistorical significance.
+              </p>
+            </div>
+
+            <div class="second-img">
+              <img
+                src="imgs/bibliotheca alex.png"
+                alt="Bibliotheca Alexandria"
+              />
+              <h4>Bibliotheca Alexandria</h4>
+              <p>
+                A modern tribute to the ancient Library of Alexandria, housing a
+                vast collection of books and manuscripts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------- ECO ---------- -->
+        <input type="radio" id="ecoTab" name="mytabs" />
+        <label for="ecoTab">
+          <div class="option">
+            <img src="imgs/plant_icon.svg" alt="" width="50" />
+            <p>Eco</p>
+          </div>
+        </label>
+
+        <div class="tab">
+          <div class="eco-imgs interests-imgs">
+            <div class="first-img">
+              <img src="imgs/Luxor-Temple.png" alt="Luxor Temple" />
+              <h4>Luxor Temple</h4>
+              <p>
+                A grand temple complex on the east bank of the Nile in Luxor,
+                known for its ancient architecture andhistorical significance.
+              </p>
+            </div>
+
+            <div class="second-img">
+              <img
+                src="imgs/bibliotheca alex.png"
+                alt="Bibliotheca Alexandria"
+              />
+              <h4>Bibliotheca Alexandria</h4>
+              <p>
+                A modern tribute to the ancient Library of Alexandria, housing a
+                vast collection of books and manuscripts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- --------- culture ---------- -->
+        <input type="radio" id="cultureTab" name="mytabs" />
+        <label for="cultureTab">
+          <div class="option">
+            <img src="imgs/buildings_icon.svg" alt="" width="55" />
+            <p>Culture</p>
+          </div>
+        </label>
+
+        <div class="tab">
+          <div class="culture-imgs interests-imgs">
+            <div class="first-img">
+              <img src="imgs/pyrrr.png" alt="Pyrr" />
+              <h4>Pyramids</h4>
+              <p>
+                A grand temple complex on the east bank of the Nile in Luxor,
+                known for its ancient architecture andhistorical significance.
+              </p>
+            </div>
+
+            <div class="second-img">
+              <img
+                src="imgs/bibliotheca alex.png"
+                alt="Bibliotheca Alexandria"
+              />
+              <h4>Bibliotheca Alexandria</h4>
+              <p>
+                A modern tribute to the ancient Library of Alexandria, housing a
+                vast collection of books and manuscripts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------- beachyy -------- -->
+        <input type="radio" id="beachyTab" name="mytabs" />
+        <label for="beachyTab">
+          <div class="option">
+            <img src="imgs/umbrella_icon.svg" alt="" width="65" />
+            <p class="beach_p">Beachy</p>
+          </div>
+        </label>
+
+        <div class="tab">
+          <div class="beachy-imgs interests-imgs">
+            <div class="first-img">
+              <img src="imgs/Luxor-Temple.png" alt="Luxor Temple" />
+              <h4>Luxor Temple</h4>
+              <p>
+                A grand temple complex on the east bank of the Nile in Luxor,
+                known for its ancient architecture andhistorical significance.
+              </p>
+            </div>
+
+            <div class="second-img">
+              <img
+                src="imgs/bibliotheca alex.png"
+                alt="Bibliotheca Alexandria"
+              />
+              <h4>Bibliotheca Alexandria</h4>
+              <p>
+                A modern tribute to the ancient Library of Alexandria, housing a
+                vast collection of books and manuscripts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============= Recommended section ================ -->
+    <section class="recommended-section">
+      <h2>Recommended By EgyXplore</h2>
+      <button class="pre-btn"><img src="imgs/arrow.png" alt="" /></button>
+      <button class="nxt-btn"><img src="imgs/arrow.png" alt="" /></button>
+
+      <div class="recommended-container">
+        <div class="reco-card">
+          <div class="reco-image">
+            <img src="imgs/Egitto-Marsa-Matrouh.png" alt="" />
+          </div>
+          <div class="reco-info">
+            <h2 class="reco-title">
+              Marsa Matrouh <i class="fa-regular fa-heart"></i>
+            </h2>
+            <p class="descr">
+              where golden beaches meet crystal-clear waters, providing a serene
+              spot for a perfect <a href="#">Learn More</a>
+            </p>
+            <div class="updates second-updates">
+              <div class="first">
+                <img src="imgs/calendar_blue.png" alt="" />
+                <h5>5 Days Trip</h5>
+              </div>
+              <div class="second">
+                <img src="imgs/favs.png" alt="" />
+                <h5>3.4 stars</h5>
+              </div>
+              <div class="third">
+                <img src="imgs/views_icon 2.png" alt="" />
+                <h5>1225</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reco-card">
+          <div class="reco-image">
+            <img src="imgs/Mount-Sinai.png" alt="" />
+          </div>
+          <div class="reco-info">
+            <h2 class="reco-title">
+              Mount Sinai <i class="fa-regular fa-heart mount-heart"></i>
+            </h2>
+            <p class="descr">
+              a majestic peak in the Sinai Peninsula, offers a breathtaking
+              ascent rewarded by a stunning sunrise panorama, making it a
+              spiritual and scenic destination <a href="#">Learn More</a>
+            </p>
+            <div class="updates second-updates">
+              <div class="first">
+                <img src="imgs/calendar_blue.png" alt="" />
+                <h5>3 Days Trip</h5>
+              </div>
+              <div class="second">
+                <img src="imgs/favs.png" alt="" />
+                <h5>4.6 stars</h5>
+              </div>
+              <div class="third">
+                <img src="imgs/views_icon 2.png" alt="" />
+                <h5>1456</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reco-card">
+          <div class="reco-image">
+            <img src="imgs/ras muhamed.png" alt="" />
+          </div>
+          <div class="reco-info">
+            <h2 class="reco-title">
+              Ras Muhammad<i class="fa-regular fa-heart"></i>
+            </h2>
+            <p class="descr">
+              a coastal gem at the tip of Sinai, enchants with vibrant coral
+              reefs, diverse marine life, and scenic <a href="#">Learn More</a>
+            </p>
+            <div class="updates second-updates">
+              <div class="first">
+                <img src="imgs/calendar_blue.png" alt="" />
+                <h5>7 Days Trip</h5>
+              </div>
+              <div class="second">
+                <img src="imgs/favs.png" alt="" />
+                <h5>3.1 stars</h5>
+              </div>
+              <div class="third">
+                <img src="imgs/views_icon 2.png" alt="" />
+                <h5>165714</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reco-card">
+          <div class="reco-image">
+            <img src="imgs/Mount-Sinai.png" alt="" />
+          </div>
+          <div class="reco-info">
+            <h2 class="reco-title">
+              Mount Sinai <i class="fa-regular fa-heart"></i>
+            </h2>
+            <p class="descr">
+              a majestic peak in the Sinai Peninsula, offers a breathtaking
+              ascent rewarded by a stunning sunrise panorama, making it a
+              spiritual and scenic destination <a href="#">Learn More</a>
+            </p>
+            <div class="updates second-updates">
+              <div class="first">
+                <img src="imgs/calendar_blue.png" alt="" />
+                <h5>1 Day Trip</h5>
+              </div>
+              <div class="second">
+                <img src="imgs/favs.png" alt="" />
+                <h5>4.2 stars</h5>
+              </div>
+              <div class="third">
+                <img src="imgs/views_icon 2.png" alt="" />
+                <h5>1800</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reco-card">
+          <div class="reco-image">
+            <img src="imgs/Egitto-Marsa-Matrouh.png" alt="" />
+          </div>
+          <div class="reco-info">
+            <h2 class="reco-title">
+              Marsa Matrouh <i class="fa-regular fa-heart"></i>
+            </h2>
+            <p class="descr">
+              where golden beaches meet crystal-clear waters, providing a serene
+              spot for a perfect <a href="#">Learn More</a>
+            </p>
+            <div class="updates second-updates">
+              <div class="first">
+                <img src="imgs/calendar_blue.png" alt="" />
+                <h5>1 Day Trip</h5>
+              </div>
+              <div class="second">
+                <img src="imgs/favs.png" alt="" />
+                <h5>4.2 stars</h5>
+              </div>
+              <div class="third">
+                <img src="imgs/views_icon 2.png" alt="" />
+                <h5>1800</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reco-card">
+          <div class="reco-image">
+            <img src="imgs/ras muhamed.png" alt="" />
+          </div>
+          <div class="reco-info">
+            <h2 class="reco-title">
+              Ras Muhammad <i class="fa-regular fa-heart"></i>
+            </h2>
+            <p class="descr">
+              a coastal gem at the tip of Sinai, enchants with vibrant coral
+              reefs, diverse marine life, and scenic <a href="#">Learn More</a>
+            </p>
+            <div class="updates second-updates">
+              <div class="first">
+                <img src="imgs/calendar_blue.png" alt="" />
+                <h5>1 Day Trip</h5>
+              </div>
+              <div class="second">
+                <img src="imgs/favs.png" alt="" />
+                <h5>4.2 stars</h5>
+              </div>
+              <div class="third">
+                <img src="imgs/views_icon 2.png" alt="" />
+                <h5>1800</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============= Useful Info ================ -->
+    <div class="useful-information-section">
+      <div class="container">
+        <div class="speachial-heading">
+          <h1>Useful Information</h1>
+        </div>
+        <div class="main-section">
+          <div class="card1">
+            <img src="imgs/metro.png" alt="" />
+            <h1>Transportation</h1>
+            <p>
+              Egypt offers diverse transportation options for tourists. Domestic
+              flights by EgyptAir connect major cities,providing
+              <button>Read more</button>
+            </p>
+          </div>
+          <div class="card2">
+            <img src="imgs/food.jpg" alt="" />
+            <h1>Food & Drink</h1>
+            <p>
+              Egyptian cuisine is a delight for food enthusiasts. Traditional
+              dishes like Koshari and Ful Medames showcase the local flavors
+              <button>Read more</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="second-useful-information-section">
+      <div class="container">
+        <div class="main-section">
+          <div class="card1">
+            <img src="imgs/airplane.png" alt="" />
+            <h1>Aviation</h1>
+            <p>
+              Navigating Egypt is made easy through well-connected airports.
+              <button>Read more</button>
+            </p>
+          </div>
+          <div class="card2">
+            <img src="imgs/popular place.png" alt="" />
+            <h1>Popular Places</h1>
+            <p>
+              Egypt's iconic landmarks beckon tourists. The Pyramids of Giza an
+              <button>Read more</button>
+            </p>
+          </div>
+          <div class="card3">
+            <img src="imgs/hotel.png" alt="" />
+            <h1>Hotels & Resorts</h1>
+            <p>
+              Accommodation in Egypt caters to a range of preferences. Luxury
+              <button>Read more</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="exolre-more">
+        Explore more<i id="right-arrow" class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+
+    <!--============= Why Egypt ================ -->
+    <div class="resonsons-why">
+      <div class="container">
+        <div class="header">
+          <h1>Five Reasons Why</h1>
+          <h1>You Should Visit Egypt</h1>
+        </div>
+        <div class="section-one">
+          <div class="image">
+            <img src="imgs/Untitled-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <span class="span-one"> </span>
+            <p class="first-elemnt">
+              Explore the iconic Pyramids of Giza and the Sphinx, marveling at
+              the architectural brilliance of ancient Egypt.
+            </p>
+            <span class="span-two"> </span>
+            <p>
+              Immerse yourself in the historical treasures of Luxor, a
+              captivating open- air museum with temples and tombs along the
+              Nile, including Karnak Temple and the Valley of the Kings.
+            </p>
+          </div>
+        </div>
+        <div class="section-two">
+          <div class="content">
+            <span class="span-one"></span>
+            <p>
+              Relax and indulge in the Red Sea's beauty at destinations like
+              Sharm El Sheikh and Hurghada, offering crystal-clear waters,
+              vibrant coral reefs, and civerse marine life for snorkeling and
+              scuba diving, .
+            </p>
+            <span class="span-two"></span>
+            <p>
+              Experience Egypt's cultural tapestry through bustling markets ,
+              vibrant street life, and traditional arts and crafts, showcasing
+              influences from ancient civilizations , Islamic traditions, and
+              Coptic Christianity.
+            </p>
+          </div>
+          <div class="image">
+            <img src="imgs/Untitled-2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="section-three">
+          <div class="image">
+            <img src="imgs/Untitled-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <p>
+              Cruise along the historic Nile River, the lifeblood of Egypt, to
+              witness picturesque landscapes and visit ancient sites, providing
+              a unique perspective on the country's timeless allure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--start of good food-->
+    <div class="good-food">
+      <div class="speachial-heading">
+        <h1>Good Food</h1>
+      </div>
+      <div class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="img1" id="slide-1">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>fol Medames</h1>
+                </div>
+                <p>
+                  Ful medames — sometimes spelled ful medammes or foul mudammas
+                  — is a hearty fava bean stew eaten in various ways, usually
+                  for breakfast, in many parts of the Middle East. This one is
+                  the Egyptian-style that author Anissa Helou calls “breakfast
+                  par excellence, enjoyed by poor and rich alike, on the street
+                  or at home
+                </p>
+              </div>
+            </div>
+            <div class="img2" id="slide-2">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Warak Enab</h1>
+                </div>
+                <p>
+                  dish of Egyptian stuffed grape leaves is often served as an
+                  appetizer in restaurants throughout Egypt. But, in homes, it
+                  is one of the favorite main dishes served at the dinner table.
+                  For Easter lunch there will be fresh green Molokheia, rice,
+                  chicken, stuffed grape leaves, cucumber yogurt salad, and
+                  green salad all together as a feast.
+                </p>
+              </div>
+            </div>
+            <div class="img3" id="slide-3">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Hawawshi</h1>
+                </div>
+                <p>
+                  Hawawshi is basically crispy pita bread stuffed with kofta
+                  like mixture. It is a super easy dinner idea that is also
+                  perfect for parties and game night..
+                </p>
+              </div>
+            </div>
+            <div class="img4" id="slide-4">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Kushari</h1>
+                </div>
+                <p>
+                  Kushari is a traditional Egyptian dish packed with plant-based
+                  protein from chickpeas and lentils. Enjoy it for lunch, dinner
+                  or any time.
+                </p>
+              </div>
+            </div>
+            <div class="img5" id="slide-5">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>MACARONA BECHAMEL</h1>
+                </div>
+                <p>
+                  A recipe for Macarona Bechamel( Egyptian Baked Pasta)! Penne
+                  pasta is layered with a spiced beef mixture, topped with a
+                  creamy béchamel sauce, and baked until golden and bubbly. .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--start of arts & culture-->
+    <div class="art-and-culture">
+      <div class="speachial-heading">
+        <h1>Art & Culture</h1>
+      </div>
+      <div class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="img1" id="slide-6">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Tanoura Dance</h1>
+                </div>
+                <p>
+                  In a huge colorful skirt with lights attached to it, trousers
+                  below, and a white skullcap, the young man began to spin to
+                  the tunes of the Arabic song ‘Doury Beena’ (Spin Us Around)
+                  alongside the sound of rhythmic claps from the audience.
+                </p>
+              </div>
+            </div>
+            <div class="img2" id="slide-7">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Music</h1>
+                </div>
+                <p>
+                  Ancient Egyptian music was characterized y a mix of percussion
+                  wind , and string instruments
+                </p>
+              </div>
+            </div>
+            <div class="img3" id="slide-8">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Thoth - Djehuti</h1>
+                </div>
+                <p>
+                  Who was Thoth? The so special god of science, religion,
+                  mystery, literature, hieroglyphs – is the amazing Thoth. He
+                  was also god of moon power and magic, responsible as a scribe
+                  for Underworld.
+                </p>
+              </div>
+            </div>
+            <div class="img4" id="slide-9">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Handmade carpets</h1>
+                </div>
+                <p>
+                  "Wool, Silk, Cotton, Noel made of wood".. That`s all he need
+                  to start working in the production of exquisite artistic
+                  miracle from types of carpets, and with knot which features
+                  with its technical and material valuables. Handmade carpet is
+                  one of the oldest crafts known to man; it started with the
+                  Pharaonic era, since more than 5000 years BC, found in Hmamih
+                  village Asyut
+                </p>
+              </div>
+            </div>
+            <div class="img5" id="slide-10">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Egyptian Pottery</h1>
+                </div>
+                <p>
+                  The ancient Egyptians were gifted artisans and pottery was an
+                  art where they excelled. Egypt in the pre dynastic period
+                  produced pottery of very high quality. Egypt made pottery
+                  before building the Pyramids. This is evident from the
+                  presence of older hieroglyphic writing with characters which
+                  have images of
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-6"></a>
+            <a href="#slide-7"></a>
+            <a href="#slide-8"></a>
+            <a href="#slide-9"></a>
+            <a href="#slide-10"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of art and culture-->
+    <!--start of traditions-->
+    <div class="traditions">
+      <div class="speachial-heading">
+        <h1>Traditions</h1>
+      </div>
+      <div class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="img1" id="slide-11">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Nubian traditions</h1>
+                </div>
+                <p>
+                  Just as unique is Nubian music, the fame of which has spread
+                  far beyond the Nile. Played on traditional instruments such as
+                  the oud (a pear-shaped guitar) and Douff (a shallow drum).
+                </p>
+              </div>
+            </div>
+            <div class="img2" id="slide-12">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Tanoura Dance</h1>
+                </div>
+                <p>
+                  In a huge colorful skirt with lights attached to it, trousers
+                  below, and a white skullcap, the young man began to spin to
+                  the tunes of the Arabic song ‘Doury Beena’ (Spin Us Around)
+                  alongside the sound of rhythmic claps from the audience.
+                </p>
+              </div>
+            </div>
+            <div class="img3" id="slide-13">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Religion in Egypt</h1>
+                </div>
+                <p>
+                  The religious atmosphere of the city is very diverse and is
+                  embedded in most of the aspects of social life in Egypt. Islam
+                  is the official religion of Egypt, with 90% of the entire
+                  population being Sunni Muslim and 10% being Coptic. Both
+                  Muslims and Christians share a common tongue (Language),
+                  history, race, identity, culture, and Ethnicity.
+                </p>
+              </div>
+            </div>
+            <div class="img4" id="slide-14">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Warmth and Hospitality of Egypt</h1>
+                </div>
+                <p>
+                  Egypt is like a magical cooking pot mixing all the incredible
+                  ideas and customs of ancient domestic and foreign lands into
+                  one majestic meal which provides a sense of warmth to every
+                  tourist who steps inside one of its cities. The Egyptian
+                  people are known for their friendly behavior towards
+                  foreigners, always ready to provide any service to their
+                  hosts.
+                </p>
+              </div>
+            </div>
+            <div class="img5" id="slide-15">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Celebrations in Egypt</h1>
+                </div>
+                <p>
+                  Egypt is known for having more celebrations than most
+                  countries. If any traveler is planning to spend a couple of
+                  days in Egypt, then this traveler has a very high chance of
+                  encountering some kind of celebration, which could be
+                  religious, folkloric, or contemporary.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-11"></a>
+            <a href="#slide-12"></a>
+            <a href="#slide-13"></a>
+            <a href="#slide-14"></a>
+            <a href="#slide-15"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of traditions-->
+    <!--start of hidden gems-->
+    <div class="hidden-gems">
+      <div class="speachial-heading">
+        <h1>Hidden gems</h1>
+      </div>
+      <div class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="img1" id="slide-16">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Marsa Alam</h1>
+                </div>
+                <p>
+                  a tranquil coastal twon along the red sea ,known for its
+                  pristine eacuse and as a getway to underwater wonders
+                </p>
+              </div>
+            </div>
+            <div class="img2" id="slide-17">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Salt Mountain</h1>
+                </div>
+                <p>
+                  Are you looking for an unbelievable spot in Egypt? Then, head
+                  to Salt Mountain! Located in the northern Egypt town of Port
+                  Fouad, Salt Mountain is a hidden gem overlooked by tourists.
+                  Like its name, the spot features a series of pure white salt
+                  mountains. It resembles a snowy landscape, something that you
+                  cannot find in a country with a hot desert climate.
+                </p>
+              </div>
+            </div>
+            <div class="img3" id="slide-18">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Colored Canyon, Nuweiba</h1>
+                </div>
+                <p>
+                  Located in Nuweiba, one of the prettiest villages in Egypt and
+                  a laid-back destination, the Colored Canyon is of the most
+                  beautiful natural wonders in the country. It is a network of
+                  rocks, some of which stand 40 meters high.
+                </p>
+              </div>
+            </div>
+            <div class="img4" id="slide-19">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Siwa</h1>
+                </div>
+                <p>
+                  For those looking for a more relaxed and peaceful experience,
+                  the Siwa Oasis is a great destination. This remote oasis is
+                  located in the Western Desert and is known for its tranquil
+                  atmosphere and traditional Bedouin culture. Visitors can enjoy
+                  activities such as camel trekking, hot spring baths, and
+                  traditional meals.
+                </p>
+              </div>
+            </div>
+            <div class="img5" id="slide-20">
+              <div class="content">
+                <div class="speachial-heading">
+                  <h1>Ras Mohammed</h1>
+                </div>
+                <p>
+                  Ras Mohammed National Park is a national park located on the
+                  southern tip of the Sinai Peninsula in Egypt. It is one of the
+                  most popular tourist attractions in Egypt, and has been
+                  designated a UNESCO World Heritage Site.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-16"></a>
+            <a href="#slide-17"></a>
+            <a href="#slide-18"></a>
+            <a href="#slide-19"></a>
+            <a href="#slide-20"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of hidden gems-->
+    <!--============= Testimonial ================ -->
+    <div class="speachial-heading" id="testimonial">
+      <h1>Testimonial</h1>
+    </div>
+    <div class="testimonial">
+      <div class="container">
+        <div class="slider-contianer">
+          <div class="card1" id="slide-21">
+            <img src="imgs/quote_icon.png" alt="" />
+            <img src="imgs/person 3.png" alt="" />
+            <p>
+              "Planning my Egypt adventure was a breeze with your site. Easy
+              tips and cultural insights made it the go-to guide for a fantastic
+              trip."
+            </p>
+            <h1>Ethan Taylor</h1>
+            <h3>Australia</h3>
+          </div>
+          <div class="card1" id="slide-22">
+            <img src="imgs/quote_icon.png" alt="" />
+            <img src="imgs/person 2.png" alt="" />
+            <p>
+              "Thanks to your site, I felt like an Egypt expert! Easy-to-use and
+              insightful, it made my journey more enjoyable and culturally
+              rich."
+            </p>
+            <h1>Olivia Mitchell</h1>
+            <h3>USA</h3>
+          </div>
+          <div class="card1" id="slide-23">
+            <img src="imgs/quote_icon.png" alt="" />
+            <img src="imgs/person 1.png" alt="" />
+            <p>
+              "Your website is a must for Egypt travelers! Simple navigation,
+              great tips - it made my experience in Egypt unforgettable.""
+            </p>
+            <h1>Fares</h1>
+            <h3>Greece</h3>
+          </div>
+        </div>
+        <div class="scrol_button">
+          <a href="#slide-21"></a>
+          <a href="#slide-22"></a>
+          <a href="#slide-23"></a>
+        </div>
+      </div>
+    </div>
+    <!--============= Stay Informed ================ -->
+    <div class="stay-informed-section">
+      <div class="container">
+        <div class="search-container">
+          <h1>STAY</h1>
+          <h1>INFORMED ON OUR</h1>
+          <p>LATEST NEWS!</p>
+          <input type="text" placeholder="Enter Your email" />
+          <button>send</button>
+        </div>
+        <div class="social-media">
+          <h1>egyXplore</h1>
+          <div class="social-media-container">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--============= Footer ================ -->
+    <div class="footer">
+      <div class="container">
+        <div class="first-col">
+          <h1>egyXplore</h1>
+          <p>
+            Discoer Egypt anew wirh egyXplore where every step is a stoey and
+            every story is adevnture
+          </p>
+        </div>
+        <div class="support">
+          <h1>Support</h1>
+          <ul>
+            <li><a href="">&#11208; FAQs</a></li>
+            <li><a href="">&#11208; Privacy Policy</a></li>
+            <li><a href="">&#11208; Terms & Conditions</a></li>
+            <li><a href="">&#11208; Contact us</a></li>
+          </ul>
+        </div>
+        <div class="destination">
+          <h1>destination</h1>
+          <ul>
+            <li><a href="">&#11208; Cairo</a></li>
+            <li><a href="">&#11208; Luxor</a></li>
+            <li><a href="">&#11208; Alexandria</a></li>
+            <li><a href="">&#11208; Sinaa</a></li>
+            <li><a href="">&#11208; New Alamin City</a></li>
+          </ul>
+        </div>
+        <div class="blog">
+          <h1>Blog</h1>
+          <ul>
+            <li><a href="">&#11208; New in Egypt Today</a></li>
+            <li><a href="">&#11208; Siwa Big Article</a></li>
+            <li><a href="">&#11208; The Pyramids</a></li>
+            <li><a href="">&#11208; Egyptian People</a></li>
+            <li><a href="">&#11208; Festivals</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <h1>egyXplore</h1>
+          <div class="social-media-container">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========= JS Files ========= -->
+    <!-- <script src="https://kit.fontawesome.com/891a743c44.js" crossorigin="anonymous"></script> -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hislide.js"></script>
+    <script>
+      $(".slide").hiSlide();
+    </script>
+  </body>
+</html>
